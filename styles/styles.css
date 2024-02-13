@@ -1,0 +1,107 @@
+
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+background-color: #1f2235;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 80px;
+position: fixed;
+width: 100%;
+}
+
+.navitem a{
+text-decoration: none;
+color: #fff;
+margin: 0 20px;
+font-size: 18px;
+font-weight: 600;
+}
+
+#navbar > ul{
+list-style: none;
+display: flex;
+padding: 0;
+
+
+
+}
+
+#brand img{
+
+    width: 100px;
+
+}
+
+.navitem a:hover{
+    cursor: pointer;
+    color: red;
+}
+
+main #home{
+
+background-color: #24263B;
+display: flex;
+justify-content: space-between;
+
+}
+
+.icon{
+
+border: 2px solid #FF4A57;
+border-radius: 30px;
+height: 60px;
+width: 60px;
+padding: 14px;
+color: white;
+text-align: center;
+font-size: 20px;
+
+
+}
+
+#horizontal{
+display: flex;
+gap: 20px;
+}
+
+
+.leftcon{
+
+padding-left: 40px;
+
+}
+
+.iconscon{
+
+margin-top: 300px;
+
+}
+
+.sectiontitle{
+
+font-size: 60px;
+color: white;
+font-weight: 800;
+
+
+}
+
+#nameintro{
+
+margin-top: 20px;
+
+
+}
+
+
+.rightcon img{
+ margin-top: 200px;
+
+
+}
