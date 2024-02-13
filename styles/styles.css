@@ -196,11 +196,12 @@ hr{
 }
 
 .cardscon{
-margin-top: 100px;
+
 display: flex;
 flex-wrap: wrap;
-justify-content: space-around;
-row-gap: 30px;
+justify-content:space-between;
+row-gap: 20px;
+padding: 120px;
 
 
 }
@@ -214,11 +215,27 @@ border-radius: 20px;
 padding: 40px;
 
 
+
 }
 
 #cardicons{
 color: #FF4A57;
 font-size: 40px;
+
+
+}
+
+.cardtitle{
+color: white;
+margin-top: 30px;
+
+
+
+}
+
+.cardcontent{
+color: #DFDFDF;
+margin-top: 20px;
 
 
 }

@@ -1,127 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My portfolio</title>
-    <script src="https://kit.fontawesome.com/d018775ffa.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-
+    <script
+      src="https://kit.fontawesome.com/d018775ffa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div id="brand">
-            <img src="images/logo.png" alt="brand logo">
+      <div id="brand">
+        <img src="images/logo.png" alt="brand logo" />
+      </div>
+      <nav id="navbar">
+        <ul>
+          <li class="navitem"><a href="#home">Home</a></li>
+          <li class="navitem"><a href="#about">About</a></li>
+          <li class="navitem"><a href="#services">Services</a></li>
+          <li class="navitem"><a href="#contact">Contact</a></li>
+          <li class="navitem"><a href="#portfolio">Portfolio</a></li>
+          <li class="navitem"><a href="#skills">Skills</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!--home section-->
+      <section id="home">
+        <div class="leftcon">
+          <div class="iconscon" id="horizontal">
+            <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+            <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
+            <div class="icon"><i class="fa-brands fa-pinterest"></i></div>
+            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+            <div class="icon"><i class="fa-brands fa-behance"></i></div>
+          </div>
+          <h2 class="sectiontitle" id="nameintro">I am Johnathan Doe</h2>
+          <p>
+            I'm Jonathan, professional web developer with <br />long time
+            experience in this field​
+          </p>
+          <button href="#portfolio"><span>My portfolio</span></button>
+          <button href="zz" id="yticon">
+            <span><i class="fa fa-play" aria-hidden="true"></i></span>
+          </button>
+
+          <!--<i class="fa-brands fa-youtube"></i> <br> <br>--->
         </div>
-        <nav id="navbar">
-            <ul>
 
-            <li class="navitem"><a href="#home">Home</a></li>
-            <li class="navitem"><a href="#about">About</a></li>
-            <li class="navitem"><a href="#services">Services</a></li>
-            <li class="navitem"><a href="#contact">Contact</a></li>
-            <li class="navitem"><a href="#portfolio">Portfolio</a></li>
-            <li class="navitem"><a href="#skills">Skills</a></li>
+        <div class="rightcon" z>
+          <img src="images/man-01.png" alt="picture of Johnathan doe" />
+        </div>
+      </section>
 
-            </ul>
-        </nav>
-        </header>
+      <!--services section-->
+      <section id="services">
+        <div class="servicecon">
+          <p id="smallsectitle">SERVICES</p>
+          <h2 class="sectiontitle">My Services</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting<br />
+            industry. Lorem Ipsum standard dummy text.
+          </p>
+          <hr />
+        </div>
 
-        <main>
-     <!--home section-->
-    <section id="home">
-        <div class="leftcon" >
-<div class="iconscon" id="horizontal">
-    <div class="icon"><i class="fa-brands fa-twitter"></i></div>
-    <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
-    <div class="icon"><i class="fa-brands fa-pinterest"></i></div>
-    <div class="icon"><i class="fa-brands fa-instagram"></i></div>
-    <div class="icon"><i class="fa-brands fa-behance"></i></div>
-</div>
-        <h2 class="sectiontitle" id="nameintro">I am Johnathan Doe</h2>
-         <p>I'm Jonathan, professional web developer with <br>long time experience in this field​</p>
-<button href="#portfolio"><span>My portfolio</span></button>
-<button href="zz" id="yticon"><span><i class="fa fa-play" aria-hidden="true"></i></span></button>
+        <div class="cardscon">
+          <div class="cardgit" id="card">
+            <i class="fa-brands fa-github" id="cardicons"></i>
+            <h2 class="cardtitle">Web Development</h2>
+            <p class="cardcontent">
+              Lorem Ipsum is simply dummy text of the printing typesetting
+              industry.simply dummy
+            </p>
+          </div>
 
-<!--<i class="fa-brands fa-youtube"></i> <br> <br>--->
-</div>
+          <div class="cardwebdesign" id="card">
+            <i class="fa-solid fa-cube" id="cardicons"></i>
+            <h2 class="cardtitle">Web Design</h2>
+            <p class="cardcontent">
+              Lorem Ipsum is simply dummy text of the printing typesetting
+              industry. simply dummy
+            </p>
+          </div>
 
-<div class="rightcon" z>
-<img src="images/man-01.png" alt="picture of Johnathan doe">
-</div>
+          <div class="cardvidedit" id="card">
+            <i class="fa-solid fa-video" id="cardicons"></i>
+            <h2 class="cardtitle">Video Editing</h2>
+            <p class="cardcontent">
+              Lorem Ipsum is simply dummy text of the printing typesetting
+              industry. simply dummy
+            </p>
+          </div>
 
-    </section>
-   
+          <div class="cardphoto" id="card">
+            <i class="fa-solid fa-camera" id="cardicons"></i>
+            <h2 class="cardtitle">Photography</h2>
+            <p class="cardcontent">
+              Lorem Ipsum is simply dummy text of the printing typesetting
+              industry. simply dummy
+            </p>
+          </div>
 
-    <!--services section-->
-    <section id="services">
-    <div class="servicecon">
-<p id="smallsectitle">SERVICES</p>
-<h2 class="sectiontitle">My Services</h2>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry. Lorem Ipsum standard dummy text.</p>
-<hr>
-</div>
+          <div class="cardappdev" id="card">
+            <i class="fa-brands fa-apple" id="cardicons"></i>
+            <h2 class="cardtitle">App developing</h2>
+            <p class="cardcontent">
+              Lorem Ipsum is simply dummy text of the printing typesetting
+              industry. simply dummy
+            </p>
+          </div>
 
-<div class="cardscon">
-    <div class="cardgit" id="card">
-       <i class="fa-brands fa-github"id="cardicons"></i>
-     <h2>Web Development</h2>
-     <p>Lorem Ipsum is simply dummy text of the printing typesetting industry.simply dummy</p>
-     </div>
+          <div class="cardseo" id="card">
+            <i class="fa-solid fa-y" id="cardicons"></i>
+            <h2 class="cardtitle">SEO expert</h2>
+            <p class="cardcontent">
+              Lorem Ipsum is simply dummy text of the printing typesetting
+              industry. simply dummy
+            </p>
+          </div>
+        </div>
+      </section>
 
-    <div class="cardwebdesign"id="card">
-   <i class="fa-solid fa-cube"id="cardicons"></i>
-   <h2>Web Design</h2>
-   <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
-    </div>
+      <!--about section-->
+      <section id="about"></section>
+      <!--contact section-->
+      <section id="contact"></section>
 
-<div class="cardvidedit"id="card">
-<i class="fa-solid fa-video"id="cardicons"></i>
-<h2>Video Editing</h2>
-<p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
-</div>
+      <!--portfolio section-->
+      <section id="portfolio"></section>
 
-<div class="cardphoto"id="card">
-<i class="fa-solid fa-camera"id="cardicons"></i>
-<h2>Photography</h2>
-<p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
-</div>
-
-<div class="cardappdev"id="card">
-<i class="fa-brands fa-apple"id="cardicons"></i>
-<h2>App developing</h2>
-<p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
-</div>
-
-<div class="cardseo"id="card">
-<i class="fa-solid fa-y"id="cardicons"></i>
-<h2>SEO expert</h2>
-<p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
-  </div>
-
-</div>
-    </section>
-
-    <!--about section-->
-    <section id="about"></section>
-    <!--contact section-->
-    <section id="contact"></section>
-
-    <!--portfolio section-->
-    <section id="portfolio"></section>
-
-    <!--skills section-->
-    <section id="skills"></section>
-
-
-        </main>
+      <!--skills section-->
+      <section id="skills"></section>
+    </main>
 
     <footer></footer>
-
-</body>
+  </body>
 </html>
