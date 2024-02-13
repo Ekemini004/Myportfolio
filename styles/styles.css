@@ -152,7 +152,73 @@ border: 2px solid #FF4A57;
 padding: 20px;
 border-radius: 30px;
 height: 60px;
-width: 80px;
+width: 110px;
+text-align: center;
+
+}
+
+#services{
+
+    background-color: #1F2235;
+
+
+}
+
+.servicecon{
+
+display: flex;
+flex-direction: column;
+text-align: center;
+position: relative;
+top: 30px;
+}
+#smallsectitle{
+font-weight: 500;
+color: #FF4A57;
+
+
+}
+
+.servicecon .sectiontitle +p{
+color: #DFDFDF;
+line-height: 30px;
+padding: 20px;
+
+}
+
+hr{
+
+    border: 1.5px solid  #FF4A57;
+    width: 55px;
+    align-self: center;
+    border-radius: 15px;
+   
+}
+
+.cardscon{
+margin-top: 100px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+row-gap: 30px;
+
+
+}
+
+#card{
+
+height: 320px;
+width: 320px;
+background-color: #23263A;
+border-radius: 20px;
+padding: 40px;
+
+
+}
+
+#cardicons{
+color: #FF4A57;
+font-size: 40px;
 
 
 }
