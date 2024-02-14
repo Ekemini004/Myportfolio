@@ -218,13 +218,28 @@ padding: 40px;
 
 }
 
-#cardicons{
-color: #FF4A57;
-font-size: 40px;
+#card:hover{
+
+background-color: #FF4A57;
+cursor: pointer;
+
 
 
 }
 
+#cardicons{
+color: #FF4A57;
+font-size: 40px;
+transition: transform 1s ease;
+
+}
+
+#cardicons:hover{
+
+    transform: rotateY(180deg);
+    color: white;
+
+}
 .cardtitle{
 color: white;
 margin-top: 30px;
